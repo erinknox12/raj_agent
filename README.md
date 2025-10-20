@@ -16,6 +16,10 @@ The agent maintained a Q-table to estimate expected rewards for each state-actio
 ## Training:
 The RL agent was trained over 15,000 games against opponents with varying strategies — including random and value-based agents — to improve generalization. Hyperparameters (learning rate, discount factor, and temperature) were tuned for optimal performance.
 
+## Code Snippets
+Example snippets of code:
+![Q-learning Snippet](Q_learning_snippet.png)
+
 ## Results:
 After training, the agent achieved a 64% win rate against mixed-strategy opponents and demonstrated strong adaptability to different play styles. Its learning curve showed rapid improvement in the early stages before stabilizing, indicating successful convergence of the Q-learning process. 
 
